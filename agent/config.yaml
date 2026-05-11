@@ -1,0 +1,10 @@
+server_url: "http://localhost:8000"
+host_id: "host-01"
+host_name: "Сервер 1"
+interval_seconds: 5
+process_top_n: 20
+log_lines_limit: 20
+log_paths:
+  - service: nginx
+    path: /var/log/nginx/access.log
+    lines: 20
